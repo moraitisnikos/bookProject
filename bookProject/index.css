@@ -1,0 +1,145 @@
+.logo{
+    width: 300px;
+    height: 100px;
+}
+.decor{
+    text-decoration: none;
+    color: #303030;
+}
+.nav-items{
+    list-style-type: none;
+    display:flex;
+    justify-content: end;
+    font-size: 12px;
+}
+.search-engine{
+    height: 40px;
+    width: 30rem;
+    padding-left: 32px;
+    padding-right: 40px;
+    border: 1px solid #a13220;
+    box-shadow: none;
+}
+.bi-search{
+    background-color: #a13220;
+    font-size: 27px;
+    padding-bottom: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+.grid-container{
+    display:grid;
+    grid-template-rows: 150px;
+    grid-template-columns: repeat(3 , auto);
+    justify-content:space-between;
+}
+.grid-item-2{
+    padding-top: 40px;
+}
+.grid-item-3{
+    padding-top: 40px;
+}
+
+.navbar-2{
+    background-color: #a13220;
+    position: relative;
+    height: 50px;
+    padding-top: 10px;
+}
+.navbar-2 ul li{
+    list-style-type: none;
+}
+.navbar-2 ul{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    
+}
+.navbar-2 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.adult{
+    position: relative;
+}
+.options{
+    margin:10px 0px 5px 0px;
+    padding: 0;
+}
+.barcodetransfer{
+    color:  #787878;
+    font-size: 0.9rem;
+    border: solid 1px;
+}
+.gift{
+    width: 350px;
+    height: 159px;
+    margin: 0;
+}
+.new-release{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.card{
+    text-align: center;
+    margin: 0px 0px 0px 100px;
+}
+.card-title , .card-text{
+    font-size: 0.9rem;
+}
+.old-price{
+    text-decoration: line-through;
+}
+.new-price{
+    color:#a13220;
+}
+.card-body{
+    text-decoration: none;
+    color: #a13220;
+}
+.card-link{
+    text-decoration: none;
+    color: #a13220;
+}
+.card-body:hover .card-link{
+    color: white;
+}
+.card-body:hover{
+    background: #a13220;
+}
+.all-books{
+    text-align: center;
+}
+.more-info{
+   text-align: center;
+   border: solid 1px black;
+   background-color: #787878;
+   padding: 10px;
+   display: inline-block;
+   text-decoration: none;
+   color: black;
+   font-size: 0.9rem;
+   margin-top: 50px;
+}
+.more-info:hover{
+    color: black;
+}
+.exit{
+    background-color: #787878;
+    margin-top: 10px;
+    text-align: center;
+}
+.psi{
+    text-decoration: none;
+    color: white;
+}
+.title-for-kids{
+    text-align: center;
+}
+@media only screen and (max-width: 1650px) {
+    .kid-on-rops{
+        display: none;
+    }
+}
